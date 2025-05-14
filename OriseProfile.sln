@@ -1,0 +1,74 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Domain Layer", "01 Domain Layer", "{3E3E12B5-056D-46F7-A8F8-3360D5161CD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Application Layer", "02 Application Layer", "{89B6CE7F-DA75-4584-945C-BA1256B07865}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Infrastructure Layer", "03 Infrastructure Layer", "{8493C11A-B335-43C1-A9DF-BE010035E95F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Presentation Layer", "04 Presentation Layer", "{9BB547C6-183D-4D47-8DDC-FA87603B40F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Unit Tests", "05 Unit Tests", "{4BA35570-2A26-49BD-82CF-1314739457CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orise.API", "Orise.API\Orise.API.csproj", "{A9E1B9D2-9F61-42F4-8B70-11D249E1041F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orise.Application", "Orise.Application\Orise.Application.csproj", "{E32D9A9F-9D19-4857-BF9F-12DBF8C73F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orise.Domain", "Orise.Domain\Orise.Domain.csproj", "{4E07F510-1E98-4D2E-99F0-CA4458B5D9F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orise.Infrastructure", "Orise.Infrastructure\Orise.Infrastructure.csproj", "{F6C59CE1-8C95-4EC6-AFF2-6A3701F70E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orise.Tests", "Orise.Tests\Orise.Tests.csproj", "{DC3154FA-5A12-4D55-BD19-70F16CEBAF9C}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Orise.React", "Orise.React\Orise.React.esproj", "{26A9DF67-E2D6-8285-0BFC-276D47305C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9E1B9D2-9F61-42F4-8B70-11D249E1041F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E1B9D2-9F61-42F4-8B70-11D249E1041F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E1B9D2-9F61-42F4-8B70-11D249E1041F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E1B9D2-9F61-42F4-8B70-11D249E1041F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E32D9A9F-9D19-4857-BF9F-12DBF8C73F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E32D9A9F-9D19-4857-BF9F-12DBF8C73F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E32D9A9F-9D19-4857-BF9F-12DBF8C73F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E32D9A9F-9D19-4857-BF9F-12DBF8C73F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E07F510-1E98-4D2E-99F0-CA4458B5D9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E07F510-1E98-4D2E-99F0-CA4458B5D9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E07F510-1E98-4D2E-99F0-CA4458B5D9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E07F510-1E98-4D2E-99F0-CA4458B5D9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C59CE1-8C95-4EC6-AFF2-6A3701F70E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C59CE1-8C95-4EC6-AFF2-6A3701F70E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C59CE1-8C95-4EC6-AFF2-6A3701F70E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C59CE1-8C95-4EC6-AFF2-6A3701F70E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3154FA-5A12-4D55-BD19-70F16CEBAF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3154FA-5A12-4D55-BD19-70F16CEBAF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3154FA-5A12-4D55-BD19-70F16CEBAF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3154FA-5A12-4D55-BD19-70F16CEBAF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A9DF67-E2D6-8285-0BFC-276D47305C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A9DF67-E2D6-8285-0BFC-276D47305C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A9DF67-E2D6-8285-0BFC-276D47305C2F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{26A9DF67-E2D6-8285-0BFC-276D47305C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A9DF67-E2D6-8285-0BFC-276D47305C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A9DF67-E2D6-8285-0BFC-276D47305C2F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9E1B9D2-9F61-42F4-8B70-11D249E1041F} = {9BB547C6-183D-4D47-8DDC-FA87603B40F3}
+		{E32D9A9F-9D19-4857-BF9F-12DBF8C73F88} = {89B6CE7F-DA75-4584-945C-BA1256B07865}
+		{4E07F510-1E98-4D2E-99F0-CA4458B5D9F4} = {3E3E12B5-056D-46F7-A8F8-3360D5161CD9}
+		{F6C59CE1-8C95-4EC6-AFF2-6A3701F70E27} = {8493C11A-B335-43C1-A9DF-BE010035E95F}
+		{DC3154FA-5A12-4D55-BD19-70F16CEBAF9C} = {4BA35570-2A26-49BD-82CF-1314739457CF}
+		{26A9DF67-E2D6-8285-0BFC-276D47305C2F} = {9BB547C6-183D-4D47-8DDC-FA87603B40F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE723CBE-481E-44C8-B9DC-C2D471928E24}
+	EndGlobalSection
+EndGlobal
